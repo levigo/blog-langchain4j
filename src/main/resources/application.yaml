@@ -1,0 +1,38 @@
+# Server config
+server:
+  port: 8042
+
+spring:
+  application:
+    name: blog-langchain4j
+    version: 0.0.1
+
+# Ollama configuration: URL + default models.
+ollama:
+  url: http://localhost:11434
+  model:
+    # If auto-import is enabled, the models will be automatically pulled (if not available yet)
+    auto-import: true
+    # Default chat model for text generation
+    chat: llama3.1
+    # Default model for function calling (tools support required, e.g. "llama3.1:8b-instruct-q4_K_M", "mistral:instruct",...)
+    instruct: llama3.1:8b-instruct-q4_K_M
+    # Default model for image recognition
+    image: llava
+
+# Logging
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n"
+  level:
+    root: info
+    de.wink: debug
+
+# Metrics
+management:
+  metrics:
+    enable.all: true
+  export:
+    prometheus.enabled: true
+    jmx.enabled: true
+  endpoints.web.exposure.include: health,info,bindings,prometheus,jmx

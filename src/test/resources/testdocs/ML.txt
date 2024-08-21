@@ -1,0 +1,19 @@
+Machine learning is a method of data analysis that automates analytical model building.
+
+It is a branch of artificial intelligence based on the idea that systems can learn from data,
+identify patterns and make decisions with minimal human intervention.
+
+Machine learning algorithms are trained on data sets that contain examples of the desired output. For example, a machine learning algorithm that is used to classify images might be trained on a data set that contains images of cats and dogs.
+Once an algorithm is trained, it can be used to make predictions on new data. For example, the machine learning algorithm that is used to classify images could be used to predict whether a new image contains a cat or a dog.
+
+Machine learning algorithms can be used to solve a wide variety of problems. Some common applications of machine learning include:
+
+Classification: Categorizing data into different groups. For example, a machine learning algorithm could be used to classify emails as spam or not spam.
+
+Regression: Predicting a continuous value. For example, a machine learning algorithm could be used to predict the price of a house.
+
+Clustering: Finding groups of similar data points. For example, a machine learning algorithm could be used to find groups of customers with similar buying habits.
+
+Anomaly detection: Finding data points that are different from the rest of the data. For example, a machine learning algorithm could be used to find fraudulent credit card transactions.
+
+Machine learning is a powerful tool that can be used to solve a wide variety of problems. As the amount of data available continues to grow, machine learning is likely to become even more important in the future.

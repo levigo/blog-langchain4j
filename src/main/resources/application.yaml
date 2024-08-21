@@ -26,7 +26,7 @@ logging:
     console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n"
   level:
     root: info
-    de.wink: debug
+    com.jadice: debug
 
 # Metrics
 management:

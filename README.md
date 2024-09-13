@@ -1,5 +1,5 @@
 # blog-langchain4j
-Some code snippets for my blogs. If you are interested in [langchain4j](https://github.com/langchain4j/langchain4j), I would recommend to take a look at [langchain4j examples](https://github.com/langchain4j/langchain4j-examples)
+Some code snippets for my blogs ([see here](https://www.levigo.de/2024/09/12/langchain4j-llms-fuer-java/)). If you are interested in [langchain4j](https://github.com/langchain4j/langchain4j), I would recommend to take a look at [langchain4j examples](https://github.com/langchain4j/langchain4j-examples)
 
 This project contains some spring boot junit tests for the langchain4j framework. Models for test can be configured via ``application.yaml``, those will be auto-pulled in the configured ollama instance by default if needed.
 

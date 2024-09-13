@@ -15,3 +15,7 @@ Some of the tests include:
 - ...
 
 In the ``docker`` folder, a ``docker-compose.yaml`` can be found to start a local [Ollama](https://ollama.com/) instance. Also a [PGVector Postgres DB](https://github.com/pgvector/pgvector) and [OpenWebUI](https://github.com/open-webui/open-webui) is contained.
+
+# Running
+As mentioned, simply run the test classes under src/test/java. If a local docker is running, the test should run without problems.
+Required models will be pulled automatically if needed (this can be disabled via application.yaml).
